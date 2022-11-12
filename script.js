@@ -1,6 +1,6 @@
 let theme = localStorage.getItem('theme')
 
-if(theme == "light"){
+if(theme == null){
   setTheme("light")
 }
 else{
